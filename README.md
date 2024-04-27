@@ -27,3 +27,11 @@ O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra
 5. **jQuery:** Biblioteca JavaScript utilizada para facilitar a manipulação do DOM e adicionar funcionalidades dinâmicas ao website, como fechar o menu de navegação em dispositivos móveis.
 
 6. **Google Maps API:** Incorporada para exibir a localização do hotel em um mapa interativo na página "Localização".
+
+## 👷 Autor
+
+* **Nome do dev** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
+
+## 📄 Licença
+
+* Esse projeto está sob a licença (nome da licença) - acesse os detalhes [LICENSE.md](https://github.com/link_da_licenca).
