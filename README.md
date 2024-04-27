@@ -14,4 +14,18 @@ O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra
 
 4. **Formulário de Contato:** Um formulário de contato está disponível para que os visitantes possam enviar perguntas, solicitar informações adicionais ou entrar em contato com o hotel para fazer reservas ou esclarecer dúvidas.
 
-O projeto visa criar uma plataforma moderna e funcional que não só promova o Hotel Portal da Serra, mas também ofereça uma experiência positiva aos usuários, incentivando-os a escolher o hotel para suas estadias em Portalegre, RN.
+# 📦 Tecnologias usadas:
+
+1. **HTML5 e CSS3:** Utilizados para criar a estrutura e o estilo visual do website.
+
+2. **Bootstrap 4:** Framework front-end utilizado para criar um design responsivo e moderno, facilitando o desenvolvimento de layouts compatíveis com dispositivos móveis.
+
+3. **JavaScript:** Utilizado para adicionar interatividade ao website, incluindo funcionalidades como fechar o menu de navegação ao clicar em um link, enviar mensagens através do formulário de contato e exibir mensagens de sucesso.
+
+4. **Google Fonts:** Utilizado para importar a fonte Montserrat, utilizada em todo o website para uma melhor legibilidade e aparência.
+
+5. **jQuery:** Biblioteca JavaScript utilizada para facilitar a manipulação do DOM e adicionar funcionalidades dinâmicas ao website, como fechar o menu de navegação em dispositivos móveis.
+
+6. **Google Maps API:** Incorporada para exibir a localização do hotel em um mapa interativo na página "Localização".
+
+Essas ferramentas foram escolhidas para facilitar o desenvolvimento do website, garantindo uma experiência de usuário agradável e uma aparência profissional.
