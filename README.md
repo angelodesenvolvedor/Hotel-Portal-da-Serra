@@ -34,4 +34,4 @@ O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença *MIT license* - acesse os detalhes [LICENSE.md](https://github.com/link_da_licenca).
+* Esse projeto está sob a licença *MIT license* - acesse os detalhes [LICENSE.md](https://github.com/angelodesenvolvedor/HotelPortaldaSerraWebsite/tree/main?tab=MIT-1-ov-file).
