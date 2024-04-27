@@ -1,6 +1,6 @@
-**Nome do Projeto:** Hotel Portal da Serra - Website
+# Hotel Portal da Serra - Website
 
-**Descrição do Projeto:**
+# Descrição do Projeto:
 O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra, localizado em Portalegre, Rio Grande do Norte. O objetivo é criar uma plataforma online que promova o hotel, forneça informações aos potenciais clientes e facilite o processo de reserva e contato.
 
 # 🔥Introdução:
