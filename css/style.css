@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos gerais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Estilos para o banner */
+#banner {
+    background-image: url('/image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+/* Estilos para os cabeçalhos das seções */
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os parágrafos das seções */
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Estilos para os cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Estilos para a seção de contato */
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Estilo para a seção de galeria */
+#galeria {
+  padding: 20px 0;
+}
+
+/* Estilo para o título da galeria */
+#galeria h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para as imagens da galeria */
+#galeria img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilo para as colunas da galeria */
+#galeria .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
