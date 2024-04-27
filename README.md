@@ -4,7 +4,7 @@
 O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra, localizado em Portalegre, Rio Grande do Norte. O objetivo é criar uma plataforma online que promova o hotel, forneça informações aos potenciais clientes e facilite o processo de reserva e contato.
 
 # 🔥Introdução:
-*Este projeto tem como objetivo criar uma presença online para o Hotel Portal da Serra, proporcionando aos visitantes uma experiência informativa e agradável. As principais funcionalidades do website incluem:
+* Este projeto tem como objetivo criar uma presença online para o Hotel Portal da Serra, proporcionando aos visitantes uma experiência informativa e agradável. As principais funcionalidades do website incluem:
 
 1. **Navegação Intuitiva:** Uma barra de navegação fácil de usar permite que os visitantes encontrem rapidamente as seções principais do website, como informações sobre o hotel, quartos disponíveis, instalações, localização, galeria de fotos e formulário de contato.
 
