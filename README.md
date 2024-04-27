@@ -30,7 +30,7 @@ O projeto consiste no desenvolvimento de um website para o Hotel Portal da Serra
 
 ## 👷 Autor
 
-* **Nome do dev** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
+* **Angelo Silvano** - *Função realizada* - [angelodesenvolvedor](https://github.com/angelodesenvolvedor)
 
 ## 📄 Licença
 
