@@ -1,3 +1,5 @@
+![image](https://github.com/angelodesenvolvedor/HotelPortaldaSerraWebsite/assets/98216100/f5ab2998-3096-47b6-9cdc-436f1c79c471)
+
 # Hotel Portal da Serra - Website
 
 # Descrição do Projeto:
