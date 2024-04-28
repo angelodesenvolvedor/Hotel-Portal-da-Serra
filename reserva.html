@@ -6,12 +6,41 @@
     <title>Reserva - Hotel Portal da Serra</title>
     <link rel="shortcut icon" href="/image/hotel.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/reserva.css">
     <link rel="stylesheet" href="./css/style.css"> <!-- Seu arquivo CSS personalizado -->
+    <style>
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 767px) {
+            .container {
+                padding-top: 80px; /* Adiciona espaço abaixo do menu fixo */
+            }
+
+            h2 {
+                font-size: 1.2rem; /* Tamanho de fonte menor para dispositivos móveis */
+                margin-bottom: 15px; /* Aumenta a margem inferior */
+            }
+
+            .form-group label {
+                font-size: 0.9rem; /* Tamanho de fonte menor para dispositivos móveis */
+            }
+
+            .form-control {
+                font-size: 0.8rem; /* Tamanho de fonte menor para dispositivos móveis */
+            }
+
+            button[type="submit"] {
+                font-size: 0.9rem; /* Tamanho de fonte menor para dispositivos móveis */
+            }
+
+            .footer {
+                font-size: 0.7rem; /* Tamanho de fonte menor para dispositivos móveis */
+                padding: 10px 0; /* Menor padding no rodapé */
+            }
+        }
+    </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">Hotel Portal da Serra</a>
     <!-- Adicione um botão de voltar para a página inicial, por exemplo -->
     <a href="index.html" class="btn btn-outline-primary ml-auto">Voltar</a>
@@ -63,11 +92,11 @@
                 <!-- Adicione outras opções de pagamento conforme necessário -->
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+        <button type="submit" class="btn btn-primary btn-block">Enviar Reserva</button>
     </form>
 </section>
 
-<footer class="footer">
+<footer class="footer text-center">
     <div class="container">
         <span class="text-muted">© 2024 Hotel Portal da Serra. Todos os direitos reservados.</span>
     </div>
