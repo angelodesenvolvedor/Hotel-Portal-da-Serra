@@ -7,6 +7,34 @@
     <link rel="shortcut icon" href="/image/hotel.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css"> <!-- Seu arquivo CSS personalizado -->
+    <style>
+        /* Estilos adicionais para dispositivos móveis */
+        .navbar-brand {
+            font-size: 1.2rem; /* Tamanho da fonte menor para dispositivos móveis */
+        }
+
+        h2 {
+            font-size: 1.5rem; /* Tamanho da fonte menor para dispositivos móveis */
+            margin-bottom: 20px; /* Aumenta a margem inferior para separar os elementos */
+        }
+
+        .form-group label {
+            font-size: 1rem; /* Tamanho da fonte menor para dispositivos móveis */
+        }
+
+        .form-control {
+            font-size: 0.9rem; /* Tamanho da fonte menor para dispositivos móveis */
+        }
+
+        button[type="submit"] {
+            font-size: 1rem; /* Tamanho da fonte menor para dispositivos móveis */
+        }
+
+        .footer {
+            font-size: 0.8rem; /* Tamanho da fonte menor para dispositivos móveis */
+            padding: 10px 0; /* Menor padding no rodapé */
+        }
+    </style>
 </head>
 <body>
 
@@ -16,8 +44,8 @@
     <a href="index.html" class="btn btn-outline-primary ml-auto">Voltar</a>
 </nav>
 
-<section class="container mt-5">
-    <h2>Faça sua Reserva</h2>
+<section class="container mt-3">
+    <h2 class="text-center">Faça sua Reserva</h2>
     <form id="reserva-form">
         <div class="form-group">
             <label for="checkin">Data de Check-in</label>
@@ -62,11 +90,11 @@
                 <!-- Adicione outras opções de pagamento conforme necessário -->
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+        <button type="submit" class="btn btn-primary btn-block">Enviar Reserva</button>
     </form>
 </section>
 
-<footer class="footer">
+<footer class="footer text-center">
     <div class="container">
         <span class="text-muted">© 2024 Hotel Portal da Serra. Todos os direitos reservados.</span>
     </div>
