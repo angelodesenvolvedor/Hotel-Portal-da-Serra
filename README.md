@@ -1,4 +1,4 @@
-![image](https://github.com/angelodesenvolvedor/HotelPortaldaSerraWebsite/assets/98216100/f5ab2998-3096-47b6-9cdc-436f1c79c471)
+![image](https://github.com/angelodesenvolvedor/HotelPortaldaSerraWebsite/assets/98216100/c728e2f8-378a-4be2-9363-9d21121ef2a8)
 
 # Hotel Portal da Serra - Website
 
