@@ -8,35 +8,31 @@ body {
 }
 
 .container {
-    margin-top: 30px;
+    margin-top: 20px; /* Reduzi a margem superior */
 }
 
 /* Estilos para os cabeçalhos das seções */
 h2 {
-    color: #007bff;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* Reduzi o tamanho da fonte */
+    margin-bottom: 15px; /* Reduzi a margem inferior */
 }
 
 /* Estilos para os parágrafos das seções */
 p {
     text-align: justify;
-    line-height: 1.6;
+    line-height: 1.4; /* Reduzi o espaçamento entre linhas */
 }
 
 /* Estilos para os cards */
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduzi a margem inferior */
     border: none;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
 }
 
 .card-title {
     font-weight: bold;
     color: #333;
+    font-size: 1.2rem; /* Reduzi o tamanho da fonte */
 }
 
 .card-text {
@@ -45,7 +41,7 @@ p {
 
 /* Estilos para a seção de contato */
 form {
-    margin-top: 20px;
+    margin-top: 15px; /* Reduzi a margem superior */
 }
 
 form input[type="text"],
@@ -53,7 +49,7 @@ form input[type="email"],
 form textarea {
     width: 100%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 8px; /* Reduzi o preenchimento */
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -62,56 +58,45 @@ form button {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px; /* Reduzi o preenchimento */
     cursor: pointer;
     border-radius: 5px;
-}
-
-form button:hover {
-    background-color: #0056b3;
 }
 
 /* Estilos para o rodapé */
 .footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0; /* Reduzi o preenchimento */
 }
 
 .footer span {
     color: #6c757d;
-    font-size: 14px;
+    font-size: 12px; /* Reduzi o tamanho da fonte */
 }
 
 /* Estilo para a seção de galeria */
 #galeria {
-  padding: 20px 0;
+    padding: 15px 0; /* Reduzi o preenchimento */
 }
 
 /* Estilo para o título da galeria */
 #galeria h2 {
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: 1.5rem; /* Reduzi o tamanho da fonte */
+    margin-bottom: 15px; /* Reduzi a margem inferior */
 }
 
 /* Estilo para as imagens da galeria */
 #galeria img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Reduzi a margem inferior */
 }
 
 /* Estilo para as colunas da galeria */
 #galeria .col-md-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para o banner */
@@ -121,17 +106,17 @@ form button:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0; /* Aumentei o padding para dar mais espaço ao conteúdo */
+    padding: 80px 0; /* Reduzi o padding */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     background-color: rgba(0, 0, 0, 0.7); /* Ajustei a transparência do fundo */
     font-family: 'Montserrat', sans-serif;
 }
 
 #banner h1 {
-    font-size: 3rem; /* Aumentei o tamanho da fonte do título */
-    margin-bottom: 20px; /* Aumentei a margem inferior do título */
+    font-size: 2.5rem; /* Reduzi o tamanho da fonte do título */
+    margin-bottom: 15px; /* Reduzi a margem inferior */
 }
 
 #banner p {
-    font-size: 1.2rem; /* Aumentei o tamanho da fonte do texto */
+    font-size: 1rem; /* Reduzi o tamanho da fonte do texto */
 }
