@@ -120,3 +120,34 @@ form button {
 #banner p {
     font-size: 1rem; /* Reduzi o tamanho da fonte do texto */
 }
+/* Estilos para o menu */
+.navbar {
+    position: fixed; /* Torna o menu fixo */
+    top: 0; /* Define a posição do topo da tela */
+    width: 100%; /* Define a largura total */
+    background-color: #fff; /* Cor de fundo do menu */
+    z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
