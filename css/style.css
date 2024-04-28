@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Estilos para o banner */
-#banner {
-    background-image: url('/image/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    background-color: rgba(0, 0, 0, 0.5); 
+/* Estilos gerais */
+body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -119,3 +113,26 @@ form button:hover {
   justify-content: center;
   align-items: center;
 }
+
+/* Estilos para o banner */
+#banner {
+    background-image: url('/image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Aumentei o padding para dar mais espaço ao conteúdo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.7); /* Ajustei a transparência do fundo */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner h1 {
+    font-size: 3rem; /* Aumentei o tamanho da fonte do título */
+    margin-bottom: 20px; /* Aumentei a margem inferior do título */
+}
+
+#banner p {
+    font-size: 1.2rem; /* Aumentei o tamanho da fonte do texto */
+}
+
