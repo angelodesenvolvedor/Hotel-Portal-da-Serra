@@ -120,6 +120,7 @@ form button {
 #banner p {
     font-size: 1rem; /* Reduzi o tamanho da fonte do texto */
 }
+
 /* Estilos para o menu */
 .navbar {
     position: fixed; /* Torna o menu fixo */
@@ -150,4 +151,14 @@ form button {
 
 .nav-link:hover {
     color: #007bff;
+}
+
+/* Estilos para a seção reserva */
+section.container {
+    padding-top: 70px; /* Ajusta o espaçamento superior para compensar o menu fixo */
+}
+
+/* Ajuste para o nome da seção "Faça sua Reserva" */
+section.container h2 {
+    margin-top: 60px; /* Adiciona espaço extra abaixo do menu fixo para garantir que o nome da seção seja visível */
 }
