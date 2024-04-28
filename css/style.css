@@ -8,7 +8,9 @@ body {
 }
 
 .container {
-    margin-top: 30px;
+    width: 100%; /* Define a largura igual à largura da tela */
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente o conteúdo */
 }
 
 /* Estilos para o banner */
@@ -21,10 +23,6 @@ body {
     padding: 100px 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     background-color: rgba(0, 0, 0, 0.5); 
-    display: flex; /* Adiciona layout flexível */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    width: 100%; /* Define a largura igual à largura do viewport */
 }
 
 /* Estilos para os cabeçalhos das seções */
