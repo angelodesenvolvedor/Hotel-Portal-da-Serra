@@ -5,6 +5,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f9fa; /* Adicionei uma cor de fundo para o corpo */
+    color: #333; /* Defini a cor do texto principal */
 }
 
 .container {
@@ -15,6 +17,7 @@ body {
 h2 {
     color: #007bff;
     margin-bottom: 20px;
+    text-transform: uppercase; /* Transforma o texto dos cabeçalhos em maiúsculas */
 }
 
 /* Estilos para os parágrafos das seções */
@@ -28,10 +31,12 @@ p {
     margin-bottom: 20px;
     border: none;
     transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra aos cards */
 }
 
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse sobre os cards */
 }
 
 .card-title {
@@ -56,6 +61,13 @@ form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transition: border-color 0.3s ease; /* Adicionei uma transição para a cor da borda dos inputs */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff; /* Altera a cor da borda ao focar nos inputs */
 }
 
 form button {
@@ -65,6 +77,7 @@ form button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease; /* Adicionei uma transição para a cor do botão */
 }
 
 form button:hover {
@@ -73,7 +86,8 @@ form button:hover {
 
 /* Estilos para o rodapé */
 .footer {
-    background-color: #f8f9fa;
+    background-color: #343a40; /* Alterei a cor de fundo do rodapé */
+    color: #fff; /* Alterei a cor do texto no rodapé */
     padding: 20px 0;
     text-align: center;
 }
@@ -84,34 +98,30 @@ form button:hover {
     align-items: center;
 }
 
-.footer span {
-    color: #6c757d;
-    font-size: 14px;
-}
-
 /* Estilo para a seção de galeria */
 #galeria {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 /* Estilo para o título da galeria */
 #galeria h2 {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Estilo para as imagens da galeria */
 #galeria img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Adicionei bordas arredondadas às imagens */
 }
 
 /* Estilo para as colunas da galeria */
 #galeria .col-md-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para o banner */
@@ -121,15 +131,27 @@ form button:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0; /* Aumentei o padding para dar mais espaço ao conteúdo */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    background-color: rgba(0, 0, 0, 0.7); /* Ajustei a transparência do fundo */
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     font-family: 'Montserrat', sans-serif;
 }
 
 #banner h1 {
-    font-size: 3rem; /* Aumentei o tamanho da fonte do título */
-    margin-bottom: 20px; /* Aumentei a margem inferior do título */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2rem;
+}
+
+/* Estilo para a seção de reserva */
+#reserva-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra ao formulário de reserva */
 }
 
 #banner p {
