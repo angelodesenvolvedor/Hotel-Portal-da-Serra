@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* Estilos gerais */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -8,24 +7,25 @@ body {
 }
 
 .container {
-    margin-top: 30px;
+    margin-top: 20px; 
 }
 
 /* Estilos para os cabeçalhos das seções */
 h2 {
     color: #007bff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Estilos para os parágrafos das seções */
 p {
     text-align: justify;
     line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 /* Estilos para os cards */
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: none;
     transition: transform 0.3s ease;
 }
@@ -45,14 +45,14 @@ p {
 
 /* Estilos para a seção de contato */
 form {
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -74,7 +74,7 @@ form button:hover {
 /* Estilos para o rodapé */
 .footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -86,32 +86,32 @@ form button:hover {
 
 .footer span {
     color: #6c757d;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Estilo para a seção de galeria */
 #galeria {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 /* Estilo para o título da galeria */
 #galeria h2 {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 /* Estilo para as imagens da galeria */
 #galeria img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 /* Estilo para as colunas da galeria */
 #galeria .col-md-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para o banner */
@@ -121,27 +121,27 @@ form button:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0; /* Aumentei o padding para dar mais espaço ao conteúdo */
+    padding: 80px 0; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    background-color: rgba(0, 0, 0, 0.7); /* Ajustei a transparência do fundo */
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #banner h1 {
-    font-size: 3rem; /* Aumentei o tamanho da fonte do título */
-    margin-bottom: 20px; /* Aumentei a margem inferior do título */
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
 }
 
 #banner p {
-    font-size: 1.2rem; /* Aumentei o tamanho da fonte do texto */
+    font-size: 1rem; 
 }
+
 /* Estilos para o menu */
 .navbar {
-    position: fixed; /* Torna o menu fixo */
-    top: 0; /* Define a posição do topo da tela */
-    width: 100%; /* Define a largura total */
-    background-color: #fff; /* Cor de fundo do menu */
-    z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: #fff; 
+    z-index: 1000; 
 }
 
 .navbar-brand {
@@ -169,15 +169,72 @@ form button:hover {
 
 /* Estilos para a seção reserva */
 section.container {
-    padding-top: 70px; /* Ajusta o espaçamento superior para compensar o menu fixo */
+    padding-top: 70px; 
 }
 
 /* Ajuste para o nome da seção "Faça sua Reserva" */
 section.container h2 {
-    margin-top: 60px; /* Adiciona espaço extra abaixo do menu fixo para garantir que o nome da seção seja visível */
+    margin-top: 60px; 
 }
 
-/* Ajuste para o nome da seção "Faça sua Reserva" */
-section.container h2 {
-    margin-top: 60px; /* Adiciona espaço extra abaixo do menu fixo para garantir que o nome da seção seja visível */
+/* Estilos para versão mobile */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        padding: 8px;
+    }
+
+    form button {
+        padding: 8px 15px;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer span {
+        font-size: 10px;
+    }
+
+    #galeria h2 {
+        margin-bottom: 10px;
+    }
+
+    #banner h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    #banner p {
+        font-size: 0.9rem;
+    }
 }
